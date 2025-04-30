@@ -25,6 +25,8 @@ const DELIVERY_INFO = {
     trackingLink: "https://track.thailandpost.co.th/?trackNumber="
 }
 
+export const title = "เลข Tracking สำหรับเสื้อ ComCamp 36"
+
 export default function EmailTemplate({ fullname, trackingId }: EmailTemplateProps) {
   return (
     <Html>
